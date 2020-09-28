@@ -28,6 +28,9 @@
     src: url('/components/fonts/static/Rubik-Light.ttf') format("truetype");
     font-display: swap;
 }
+.hide {
+    display:none;
+}
 @media only screen and (max-width: 600px) and (min-width: 320px) {
     .container {
         width: 100%;

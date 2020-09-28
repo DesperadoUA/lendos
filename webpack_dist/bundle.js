@@ -215,12 +215,22 @@ function popUpActivate() {
   var popUpSelectors = document.querySelectorAll('.pop_up_selector');
 
   if (popUpSelectors.length !== 0) {
+    var phone = document.querySelector('.pop_up_phone');
+    var email = document.querySelector('.pop_up_email');
     popUpSelectors.forEach(function (item) {
       item.addEventListener('click', function () {
         popUpSelectors.forEach(function (selector) {
           selector.classList.remove('active');
         });
         item.classList.add('active');
+
+        if (phone.classList.contains('hide')) {
+          phone.classList.remove('hide');
+          email.classList.add('hide');
+        } else {
+          phone.classList.add('hide');
+          email.classList.remove('hide');
+        }
       });
     });
   }
