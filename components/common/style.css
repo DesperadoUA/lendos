@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    width: 90%;
+    max-width: 1270px;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: 'Rubik bold';
+    src: url('/components/fonts/static/Rubik-Bold.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik bolder';
+    src: url('/components/fonts/static/Rubik-ExtraBold.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Rubik';
+    src: url('/components/fonts/static/Rubik-Black.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Rubik light';
+    src: url('/components/fonts/static/Rubik-Light.ttf') format("truetype");
+    font-display: swap;
+}
+@media only screen and (max-width: 600px) and (min-width: 320px) {
+    .container {
+        width: 100%;
+    }
+}

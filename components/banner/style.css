@@ -1,0 +1,161 @@
+.banner {
+    height: 365px;
+    background: url("/components/banner/img/banner.png") no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 2px solid var(--color_3);
+}
+.banner_title {
+    font-family: 'Rubik bolder';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 57px;
+    line-height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: var(--color_6);
+    padding-top: 30px;
+    position: relative;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: var(--color_7);
+}
+.banner_title_bottom {
+    font-family: 'Rubik bold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: var(--color_5);
+    padding-top: 25px;
+}
+.wrapper_banner_img {
+    display: flex;
+    margin-top: -120px;
+}
+.banner_img_item:nth-child(1) {
+    width:25%;
+    position: relative;
+}
+.banner_img_item:nth-child(2) {
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.banner_img_item:nth-child(2) img {
+    margin-left: 15px;
+    margin-right: 15px;
+    transform: translateY(-95px);
+}
+.banner_img_item:nth-child(3) {
+    width:25%;
+}
+.banner_text_wrapper {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    background: var(--color_1);
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.banner_text_1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: var(--color_8);
+    opacity: 0.7;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+}
+.banner_text_2 {
+    font-family: 'Rubik light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: var(--color_8);
+    opacity: 0.7;
+}
+@media only screen and (max-width: 1920px) and (min-width: 1200px)  {
+    .banner_men {
+        animation: scale_animation 5s alternate infinite ease-in;
+    }
+    @keyframes scale_animation {
+        0%   {transform: scale(.9);}
+        100% {transform: scale(1.1);}
+    }
+}
+@media only screen and (max-width: 600px) and (min-width: 320px)  {
+    .banner_title {
+        font-size: 21px;
+        -webkit-text-stroke-width: 2px;
+        padding-top: 15px;
+    }
+    .banner_title_bottom {
+        font-size: 19px;
+        padding-top: 0px;
+    }
+    .banner {
+        background: url('/components/banner/img/bg_mobile.png');
+        background-size: 100% 100%;
+        height: 497px;
+    }
+    .wrapper_banner_img {
+        margin-top: 0px;
+    }
+    .banner_img_item:nth-child(1), .banner_img_item:nth-child(3) {
+        width: 50%;
+    }
+    .banner_img_item:nth-child(2) {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+    }
+    .banner_img_item:nth-child(2) img {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .banner_img_item:nth-child(2) img:nth-child(1) {
+        width: 45px;
+    }
+    .banner_img_item:nth-child(2) img:nth-child(2) {
+        width: 80px;
+    }
+    .banner_img_item:nth-child(2) img:nth-child(3) {
+        width: 75px;
+    }
+    .banner_img_item:nth-child(2) img:nth-child(4) {
+        width: 70px;
+    }
+    .banner_img_item:nth-child(3) img {
+       margin-left:-130px;
+    }
+    .banner_img_item:nth-child(1) img {
+        width: 245px;
+        position: absolute;
+        bottom: 0px;
+        left:0px;
+    }
+    .banner .container {
+        width: 100%;
+    }
+}

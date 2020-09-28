@@ -1,0 +1,195 @@
+@import "register_form.css";
+.pop_up_wrapper {
+    position:fixed;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+    top:0px;
+    left:0px;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.pop_up_activate {
+    display: flex;
+}
+.pop_up_container {
+    width: 960px;
+    border-radius: 4px;
+    display: flex;
+    background: var(--color_5);
+    overflow: hidden;
+}
+.pop_up_left {
+    width: 600px;
+    height: 660px;
+    background: url('/components/pop_up/img/bg.png');
+    padding-top: 70px;
+    box-sizing: border-box;
+    position: relative;
+}
+.pop_up_right {
+   width: 360px;
+    box-sizing: border-box;
+}
+.pop_up_title {
+    font-family: 'Rubik bolder';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: var(--color_6);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--color_7);
+}
+.pop_up_container_ticket {
+    padding: 50px 80px;
+}
+.pop_up_item_ticket {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+.pop_up_ticket {
+    width: 200px;
+    height: 107px;
+    background: url("/components/pop_up/img/ticket_1.png") no-repeat;
+}
+.pop_up_item_ticket:nth-child(2) .pop_up_ticket{
+    background: url("/components/pop_up/img/ticket_2.png") no-repeat;
+}
+.pop_up_item_ticket:nth-child(3) .pop_up_ticket {
+    background: url("/components/pop_up/img/ticket_3.png") no-repeat;
+}
+.pop_up_ticket_title {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color_1);
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.pop_up_wrapper_button {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.pop_up_button {
+    width: 145px;
+    height: 45px;
+    border-radius: 4px;
+    margin-left: 2px;
+    background: url('/components/pop_up/img/ticket_show.png') no-repeat;
+    border: none;
+    font-family: 'Rubik bolder';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: var(--color_7);
+}
+.pop_up_men {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.pop_up_text {
+    position: absolute;
+    bottom: 160px;
+    left: 140px;
+}
+.button_coin {
+    transform: translateY(4px);
+}
+.pop_up_men_mobile {
+    display: none;
+}
+@media only screen and (max-width: 600px) and (min-width: 320px) {
+    .pop_up_wrapper .pop_up_container {
+        flex-wrap: wrap;
+    }
+    .pop_up_wrapper .pop_up_left {
+        width: 100%;
+        height: 218px;
+    }
+    .pop_up_wrapper .pop_up_men {
+        display: none;
+    }
+    .pop_up_wrapper .pop_up_title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .pop_up_container_ticket {
+        display: flex;
+    }
+    .pop_up_wrapper {
+        display: flex;
+        align-items: flex-start;
+    }
+    .pop_up_container {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .pop_up_container_ticket {
+        padding: 5px;
+        justify-content: space-around;
+        margin-bottom: 70px;
+    }
+    .pop_up_container .pop_up_ticket {
+        width: 100px;
+        background-size: contain!important;
+    }
+    .pop_up_ticket_title {
+        font-size: 8px;
+        padding-top: 10px;
+    }
+    .pop_up_button {
+        width: 60px;
+        height: 20px;
+        font-size: 12px;
+        background-size: contain;
+        margin-bottom: 10px;
+        boredr:1px solid red;
+        margin-left: 0px;
+    }
+    .pop_up_ticket {
+        height: auto;
+    }
+    .pop_up_wrapper_button {
+        padding-top: 5px;
+    }
+    .button_coin {
+        width: 15px;
+        transform: translateY(-2px);
+    }
+    .pop_up_button span {
+        position: relative;
+        transform: translateY(-5px);
+        display: inline-block;
+    }
+    .pop_up_left {
+        padding-top: 10px;
+        overflow: hidden;
+    }
+    .pop_up_men_mobile {
+        position: absolute;
+        bottom:0px;
+        left:0px;
+        display: block;
+    }
+    .pop_up_text {
+        bottom: -30px;
+    }
+    .pop_up_text_register {
+        padding-top: 20px;
+    }
+}

@@ -1,0 +1,12 @@
+.payments_wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 600px) and (min-width: 320px) {
+    .payments_wrapper {
+        flex-wrap: wrap;
+    }
+    .payments_item {
+        padding: 5px;
+    }
+}

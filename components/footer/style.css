@@ -1,0 +1,11 @@
+.footer {
+    position: relative;
+    margin-top: -116px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+@media only screen and (max-width: 600px) and (min-width: 320px) {
+    .footer {
+        margin-top: -200px;
+    }
+}

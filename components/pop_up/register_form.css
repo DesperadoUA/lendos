@@ -1,0 +1,85 @@
+.pop_up_right {
+    padding: 40px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form_title {
+    font-family: 'Rubik bolder';
+    font-style: normal;
+    font-size: 26px;
+    line-height: 130.35%;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: var(--color_1);
+}
+.form_select_wrapper {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.form_select_phone, .form_select_email {
+    width: 50%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #4C61B2;
+    cursor: pointer;
+}
+.active {
+    border-bottom: 2px solid #4C61B2;
+}
+.form_input {
+    background: #FFFFFF;
+    border: 1px solid #D1D5E1;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 70px;
+}
+label {
+    font-family: 'Rubik light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #67749A;
+}
+.form_wrapper_btn {
+    display: flex;
+    justify-content: center;
+}
+.pop_up_text_register {
+    font-family: 'Rubik light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #9390A1;
+}
+.pop_up_text_register  a {
+    color: var(--color_3);
+}
+@media only screen and (max-width: 600px) and (min-width: 320px) {
+    .pop_up_right {
+        padding: 15px;
+    }
+    .pop_up_wrapper .pop_up_right {
+        width: 100%;
+    }
+}

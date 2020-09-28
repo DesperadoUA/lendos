@@ -1,0 +1,1 @@
+<p class="footer_text">© 2020 777 Originals. Все права защищены.</p>
