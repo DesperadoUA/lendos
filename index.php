@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel='stylesheet'   href='/webpack_dist/bundle.css' media='all' />
-    <title>Document</title>
+    <title>777 - lottery</title>
 </head>
 <body>
     <?php include 'components/header/view.php'; ?>
