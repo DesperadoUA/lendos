@@ -268,8 +268,17 @@ body {
     }
 }
 @media only screen and (max-width: 1060px) and (min-width: 320px) {
+    .banner_title {
+        font-size: 25px;
+    }
     .banner_men {
         margin-left: 0px;
+    }
+    .banner_car {
+        transform: translateX(0px);
+    }
+    .banner_img_item:nth-child(1) img {
+        margin-left: -30px;
     }
 }
 
