@@ -1,3 +1,4 @@
+@import 'coin_animate.css';
 .container_ticket {
     display: flex;
     justify-content: center;
@@ -74,11 +75,6 @@
 }
 .box_ticket_button span {
     padding-left: 20px;
-}
-.ticket_coin {
-    position: absolute;
-    top: 0;
-    left: 19%;
 }
 @media only screen and (max-width: 600px) and (min-width: 320px) {
     .container_ticket {

@@ -1,5 +1,6 @@
 @import "register_form.css";
 @import "phone_input.css";
+@import "animate.css";
 .pop_up_wrapper {
     position:fixed;
     width: 100vw;
@@ -52,6 +53,19 @@
     position: relative;
     z-index: 0;
 }
+
+.pop_up_container_ticket:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+    width: 392px;
+    height: 219px;
+    background: #00B5FF;
+    filter: blur(100px);
+}
+
 
 .pop_up_container_ticket:before {
     content: '';

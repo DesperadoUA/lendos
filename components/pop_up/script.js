@@ -18,14 +18,13 @@ function popUpActivate() {
     const selectPhone = document.querySelector('.form_select_phone')
     const label = document.querySelector('.label_select')
     const wrapperInput = document.querySelector('.wrapper_input')
-    const registerDesc = document.querySelector('.register_desc');
-
+    const registerDesc = document.querySelector('.register_desc')
     function renderPhoneInput() {
         label.innerHTML = 'Телефон'
         wrapperInput.innerHTML = `<input
                                     id="RegisterForm_contact"
                                     name="RegisterForm[contact]"
-                                    type="tel"
+                                    type="tel" 
                                     class="form_input">`
         registerDesc.innerHTML = 'Введите актуальный номер телефона,<br> чтобы получить свой подарок.'
         initialInput();

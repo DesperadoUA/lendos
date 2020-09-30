@@ -10,8 +10,6 @@ function initialInput(){
         },
         utilsScript: "/components/pop_up/utils.js"
     });
-
-    console.log(5);
 }
 initialInput();
 
