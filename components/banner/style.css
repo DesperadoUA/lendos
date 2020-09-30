@@ -164,6 +164,10 @@
         font-size: 21px;
         padding-top: 15px;
     }
+    .banner_men {
+        margin-left: 0px;
+        z-index: 2;
+    }
     .banner_title_bottom {
         font-size: 16px;
         padding-top: 0px;
@@ -179,11 +183,20 @@
     .banner_img_item:nth-child(1), .banner_img_item:nth-child(3) {
         width: 50%;
     }
+    .banner_img_item:nth-child(3) {
+        margin: 0px;
+        z-index: 0;
+    }
+    .banner_img_item:nth-child(3) img {
+        margin-left: -100px!important;
+        transform: translateY(-40px);
+    }
     .banner_img_item:nth-child(2) {
         position: absolute;
         bottom: 0px;
         left: 0px;
         width: 100%;
+        z-index: 2;
     }
     .banner_img_item:nth-child(2) img {
         margin-left: 10px;
@@ -212,6 +225,9 @@
     }
     .banner .container {
         width: 100%;
+    }
+    .banner_text_wrapper {
+        z-index: 5;
     }
 }
 @media only screen and (max-width: 1060px) and (min-width: 768px) {

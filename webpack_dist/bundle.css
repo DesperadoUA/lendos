@@ -217,6 +217,10 @@ body {
         font-size: 21px;
         padding-top: 15px;
     }
+    .banner_men {
+        margin-left: 0px;
+        z-index: 2;
+    }
     .banner_title_bottom {
         font-size: 16px;
         padding-top: 0px;
@@ -232,11 +236,20 @@ body {
     .banner_img_item:nth-child(1), .banner_img_item:nth-child(3) {
         width: 50%;
     }
+    .banner_img_item:nth-child(3) {
+        margin: 0px;
+        z-index: 0;
+    }
+    .banner_img_item:nth-child(3) img {
+        margin-left: -100px!important;
+        transform: translateY(-40px);
+    }
     .banner_img_item:nth-child(2) {
         position: absolute;
         bottom: 0px;
         left: 0px;
         width: 100%;
+        z-index: 2;
     }
     .banner_img_item:nth-child(2) img {
         margin-left: 10px;
@@ -265,6 +278,23 @@ body {
     }
     .banner .container {
         width: 100%;
+    }
+    .banner_text_wrapper {
+        z-index: 5;
+    }
+}
+@media only screen and (max-width: 1060px) and (min-width: 768px) {
+    .banner_title {
+        font-size: 25px;
+    }
+    .banner_men {
+        margin-left: 0px;
+    }
+    .banner_car {
+        transform: translateX(0px);
+    }
+    .banner_img_item:nth-child(1) img {
+        margin-left: -30px;
     }
 }
 
@@ -335,6 +365,44 @@ body {
     .main .light {
         background: url(72d8d3fddd1524510928d811f9eaa485.jpg);
     }
+}
+
+.coin_animate {
+    width: 20px;
+    height: 34px;
+    position: absolute;
+    top:10px;
+    left:30px;
+    background: url(31533032320566d05e942d810e53f4f6.png);
+    animation: move_bg 4s ease-in-out infinite;
+}
+.ticket_coin {
+    position: absolute;
+    top: 0;
+    left: 13px;
+    z-index: 2;
+    animation: move_coin 4s ease-in-out infinite;
+    margin-left: -5px;
+}
+.box_ticket {
+    animation: move_ticket 5s linear infinite;
+}
+@keyframes move_coin {
+    0%   {transform: translateX(0);}
+    50%   {transform: translateX(35px);}
+    100% {transform: translateX(0);}
+}
+@keyframes move_bg {
+    0%   {width: 0;}
+    50% {width:35px;}
+    100% {width:0;}
+}
+@keyframes move_ticket {
+    0%   {transform: translateY(0px);}
+    25%   {transform: translateY(10px);}
+    50%   {transform: translateY(0px);}
+    75% {transform: translateY(-10px);}
+    100% {transform: translateY(0px);}
 }
 
 .container_ticket {
@@ -414,11 +482,6 @@ body {
 .box_ticket_button span {
     padding-left: 20px;
 }
-.ticket_coin {
-    position: absolute;
-    top: 0;
-    left: 19%;
-}
 @media only screen and (max-width: 600px) and (min-width: 320px) {
     .container_ticket {
         width: 100%;
@@ -464,7 +527,6 @@ body {
     text-transform: uppercase;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: var(--color_6);
-    margin-bottom: 11px;
     text-shadow:
             -0   -4px 0   var(--color_7),
             0   -4px 0   var(--color_7),
@@ -536,6 +598,12 @@ body {
 @media only screen and (max-width: 600px) and (min-width: 320px) {
     .card_container {
         flex-wrap: wrap;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .card_title {
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
     .card_desc {
         padding-left: 10px;
@@ -563,6 +631,30 @@ body {
         margin-top: 20px;
     }
 }
+@media only screen and (max-width: 1060px) and (min-width: 768px) {
+    .wrapper .container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .card_item:nth-child(2):before {
+        left:-60px;
+    }
+    .card_item:nth-child(2):after {
+        right:-65px;
+    }
+    .card_item {
+        width:235px;
+    }
+    .card_container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .card_title {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
 
 .button_wrapper {
     display: flex;
@@ -612,7 +704,7 @@ body {
     margin-bottom: 15px;
 }
 
-@media only screen and (max-width: 600px) and (min-width: 320px) {
+@media only screen and (max-width: 1060px) and (min-width: 320px) {
     .payments_wrapper {
         flex-wrap: wrap;
         padding-left: 0;
@@ -1671,6 +1763,24 @@ label {
 }
 
 
+.pop_up_item_ticket:nth-child(1) .pop_up_ticket {
+    animation: 2.7s scale_ticket 7s ease-in-out infinite;
+    animation-delay: calc(.45s * 1);
+}
+.pop_up_item_ticket:nth-child(2) .pop_up_ticket {
+    animation: 2.7s scale_ticket 7s ease-in-out infinite;
+    animation-delay: calc(.45s * 2);
+}
+.pop_up_item_ticket:nth-child(3) .pop_up_ticket {
+    animation: 2.7s scale_ticket 7s ease-in-out infinite;
+    animation-delay: calc(.45s * 3);
+}
+
+@keyframes scale_ticket {
+    0%   {transform: scale(1);}
+    20% {transform: scale(1.1);}
+    40% {transform: scale(1);}
+}
 .pop_up_wrapper {
     position:fixed;
     width: 100vw;
@@ -1681,7 +1791,7 @@ label {
     z-index: 2;
     align-items: center;
     justify-content: center;
-    /*display: none;*/
+    display: none;
 }
 .pop_up_activate {
     display: flex;
@@ -1723,6 +1833,19 @@ label {
     position: relative;
     z-index: 0;
 }
+
+.pop_up_container_ticket:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+    width: 392px;
+    height: 219px;
+    background: #00B5FF;
+    filter: blur(100px);
+}
+
 
 .pop_up_container_ticket:before {
     content: '';
