@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="235d11ba-14bf-451a-979f-e9ec51f1987a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/components/banner/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/banner/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack_dist/bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/webpack_dist/bundle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack_dist/bundle.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/webpack_dist/bundle.css.map" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/banner/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="218" column="24" selection-start-line="218" selection-start-column="24" selection-end-line="218" selection-end-column="24" />
+            <state relative-caret-position="312">
+              <caret line="216" column="62" selection-start-line="216" selection-start-column="62" selection-end-line="216" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -271,12 +269,12 @@
       <workItem from="1601276433959" duration="10065000" />
       <workItem from="1601286695098" duration="2254000" />
       <workItem from="1601292188793" duration="2975000" />
-      <workItem from="1601473569045" duration="3262000" />
+      <workItem from="1601473569045" duration="3315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50752000" />
+    <option name="totallyTimeSpent" value="50805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -570,8 +568,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/banner/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="218" column="24" selection-start-line="218" selection-start-column="24" selection-end-line="218" selection-end-column="24" />
+        <state relative-caret-position="312">
+          <caret line="216" column="62" selection-start-line="216" selection-start-column="62" selection-end-line="216" selection-end-column="62" />
         </state>
       </provider>
     </entry>
