@@ -1,12 +1,17 @@
 function popUpActivate() {
-    const popUpActivate = document.querySelector('.pop_up_activate')
+    const popUpActivate = document.querySelectorAll('.js-popup-activate')
+
     if(popUpActivate) {
-        const popUp = document.querySelector('.pop_up_wrapper')
-        const popUpWrapper = document.querySelector('.pop_up_wrapper')
-        const popUpConteiner = document.querySelector('.pop_up_container')
-        popUpActivate.addEventListener('click', function () {
-            popUp.classList.add('pop_up_activate')
-        })
+        const popUp = document.querySelector('.pop_up_wrapper');
+        const popUpWrapper = document.querySelector('.pop_up_wrapper');
+        const popUpConteiner = document.querySelector('.pop_up_container');
+
+        popUpActivate.forEach(elem => {
+            elem.addEventListener('click', () => {
+                popUp.classList.add('pop_up_activate')
+            });
+        });
+
         popUpWrapper.addEventListener('click', function () {
             popUp.classList.remove('pop_up_activate')
         })
@@ -14,11 +19,13 @@ function popUpActivate() {
             event.stopPropagation();
         })
     }
-    const popUpSelectors = document.querySelectorAll('.pop_up_selector')
-    const selectPhone = document.querySelector('.form_select_phone')
-    const label = document.querySelector('.label_select')
-    const wrapperInput = document.querySelector('.wrapper_input')
-    const registerDesc = document.querySelector('.register_desc')
+
+    const popUpSelectors = document.querySelectorAll('.pop_up_selector');
+    const selectPhone = document.querySelector('.form_select_phone');
+    const label = document.querySelector('.label_select');
+    const wrapperInput = document.querySelector('.wrapper_input');
+    const registerDesc = document.querySelector('.register_desc');
+
     function renderPhoneInput() {
         label.innerHTML = 'Телефон'
         wrapperInput.innerHTML = `<input

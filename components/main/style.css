@@ -2,7 +2,6 @@
     background: #025daf;
     position: relative;
     overflow: hidden;
-    padding-bottom: 174px;
 }
 .main .mask {
     position: absolute;
@@ -50,10 +49,6 @@
 }
 
 @media only screen and (max-width: 600px) and (min-width: 320px) {
-    .main {
-        height: 1300px;
-    }
-
     .main .mask {
         top: -645px;
         left: -647px;

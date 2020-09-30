@@ -26,47 +26,30 @@
     text-transform: uppercase;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: var(--color_6);
-    text-shadow:
-            -0   -4px 0   var(--color_7),
-            0   -4px 0   var(--color_7),
-            -0    4px 0   var(--color_7),
-            0    4px 0   var(--color_7),
-            -4px -0   0   var(--color_7),
-            4px -0   0   var(--color_7),
-            -4px  0   0   var(--color_7),
-            4px  0   0   var(--color_7),
-            -1px -4px 0   var(--color_7),
-            1px -4px 0   var(--color_7),
-            -1px  4px 0   var(--color_7),
-            1px  4px 0   var(--color_7),
-            -4px -1px 0   var(--color_7),
-            4px -1px 0   var(--color_7),
-            -4px  1px 0   var(--color_7),
-            4px  1px 0   var(--color_7),
-            -2px -4px 0   var(--color_7),
-            2px -4px 0   var(--color_7),
-            -2px  4px 0   var(--color_7),
-            2px  4px 0   var(--color_7),
-            -4px -2px 0   var(--color_7),
-            4px -2px 0   var(--color_7),
-            -4px  2px 0   var(--color_7),
-            4px  2px 0   var(--color_7),
-            -3px -4px 0   var(--color_7),
-            3px -4px 0   var(--color_7),
-            -3px  4px 0   var(--color_7),
-            3px  4px 0   var(--color_7),
-            -4px -3px 0   var(--color_7),
-            4px -3px 0   var(--color_7),
-            -4px  3px 0   var(--color_7),
-            4px  3px 0   var(--color_7),
-            -4px -4px 0   var(--color_7),
-            4px -4px 0   var(--color_7),
-            -4px  4px 0   var(--color_7),
-            4px  4px 0   var(--color_7),
-            -4px -4px 0   var(--color_7),
-            4px -4px 0   var(--color_7),
-            -4px  4px 0   var(--color_7),
-            4px  4px 0   var(--color_7);
+    margin-bottom: 9px;
+    position: relative;
+}
+
+.card_title:before {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    z-index: -1;
+    color: transparent;
+}
+
+.card_title:after {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    z-index: -1;
+    -webkit-text-stroke: .25em #333533;
 }
 
 .card_desc {

@@ -1,6 +1,7 @@
 @import "register_form.css";
 @import "phone_input.css";
 @import "animate.css";
+
 .pop_up_wrapper {
     position:fixed;
     width: 100vw;
@@ -8,7 +9,7 @@
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 1000;
     align-items: center;
     justify-content: center;
     display: none;
