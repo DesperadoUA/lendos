@@ -1,0 +1,18 @@
+.pop_up_item_ticket:nth-child(1) .pop_up_ticket {
+    animation: 2.7s scale_ticket 7s ease-in-out infinite;
+    animation-delay: calc(.45s * 1);
+}
+.pop_up_item_ticket:nth-child(2) .pop_up_ticket {
+    animation: 2.7s scale_ticket 7s ease-in-out infinite;
+    animation-delay: calc(.45s * 2);
+}
+.pop_up_item_ticket:nth-child(3) .pop_up_ticket {
+    animation: 2.7s scale_ticket 7s ease-in-out infinite;
+    animation-delay: calc(.45s * 3);
+}
+
+@keyframes scale_ticket {
+    0%   {transform: scale(1);}
+    20% {transform: scale(1.1);}
+    40% {transform: scale(1);}
+}

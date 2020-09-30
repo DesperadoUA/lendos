@@ -1,0 +1,37 @@
+.coin_animate {
+    width: 20px;
+    height: 34px;
+    position: absolute;
+    top:10px;
+    left:30px;
+    background: url('../../components/ticket/img/place.png');
+    animation: move_bg 4s ease-in-out infinite;
+}
+.ticket_coin {
+    position: absolute;
+    top: 0;
+    left: 13px;
+    z-index: 2;
+    animation: move_coin 4s ease-in-out infinite;
+    margin-left: -5px;
+}
+.box_ticket {
+    animation: move_ticket 5s linear infinite;
+}
+@keyframes move_coin {
+    0%   {transform: translateX(0);}
+    50%   {transform: translateX(35px);}
+    100% {transform: translateX(0);}
+}
+@keyframes move_bg {
+    0%   {width: 0;}
+    50% {width:35px;}
+    100% {width:0;}
+}
+@keyframes move_ticket {
+    0%   {transform: translateY(0px);}
+    25%   {transform: translateY(10px);}
+    50%   {transform: translateY(0px);}
+    75% {transform: translateY(-10px);}
+    100% {transform: translateY(0px);}
+}

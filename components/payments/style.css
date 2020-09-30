@@ -1,10 +1,18 @@
 .payments_wrapper {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    opacity: .5;
+    margin-bottom: 15px;
 }
+
 @media only screen and (max-width: 600px) and (min-width: 320px) {
     .payments_wrapper {
         flex-wrap: wrap;
+        padding-left: 0;
+        padding-right: 0;
     }
     .payments_item {
         padding: 5px;

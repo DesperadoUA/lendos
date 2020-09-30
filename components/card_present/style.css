@@ -1,52 +1,99 @@
 .card_container {
     display: flex;
     justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .card_item {
     width: 300px;
     text-align: center;
     position: relative;
 }
+
+.card_item__img {
+    min-height: 97px;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
 .card_title {
-    font-family: 'Rubik bolder';
     font-style: italic;
     font-weight: 900;
-    font-size: 22px;
-    line-height: 56px;
+    font-size: 21px;
+    line-height: 1.25;
     /* identical to box height, or 255% */
     text-transform: uppercase;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: var(--color_6);
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: var(--color_7);
+    margin-bottom: 11px;
+    text-shadow:
+            -0   -4px 0   var(--color_7),
+            0   -4px 0   var(--color_7),
+            -0    4px 0   var(--color_7),
+            0    4px 0   var(--color_7),
+            -4px -0   0   var(--color_7),
+            4px -0   0   var(--color_7),
+            -4px  0   0   var(--color_7),
+            4px  0   0   var(--color_7),
+            -1px -4px 0   var(--color_7),
+            1px -4px 0   var(--color_7),
+            -1px  4px 0   var(--color_7),
+            1px  4px 0   var(--color_7),
+            -4px -1px 0   var(--color_7),
+            4px -1px 0   var(--color_7),
+            -4px  1px 0   var(--color_7),
+            4px  1px 0   var(--color_7),
+            -2px -4px 0   var(--color_7),
+            2px -4px 0   var(--color_7),
+            -2px  4px 0   var(--color_7),
+            2px  4px 0   var(--color_7),
+            -4px -2px 0   var(--color_7),
+            4px -2px 0   var(--color_7),
+            -4px  2px 0   var(--color_7),
+            4px  2px 0   var(--color_7),
+            -3px -4px 0   var(--color_7),
+            3px -4px 0   var(--color_7),
+            -3px  4px 0   var(--color_7),
+            3px  4px 0   var(--color_7),
+            -4px -3px 0   var(--color_7),
+            4px -3px 0   var(--color_7),
+            -4px  3px 0   var(--color_7),
+            4px  3px 0   var(--color_7),
+            -4px -4px 0   var(--color_7),
+            4px -4px 0   var(--color_7),
+            -4px  4px 0   var(--color_7),
+            4px  4px 0   var(--color_7),
+            -4px -4px 0   var(--color_7),
+            4px -4px 0   var(--color_7),
+            -4px  4px 0   var(--color_7),
+            4px  4px 0   var(--color_7);
 }
+
 .card_desc {
-    font-family: 'Rubik light';
-    font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 21px;
     text-align: center;
-    font-feature-settings: 'pnum' on, 'lnum' on;
     color: var(--color_5);
 }
 .card_item:nth-child(2):before {
     content: '';
     position: absolute;
-    top:10px;
+    top:15px;
     left:-113px;
     width: 93px;
     height: 65px;
-    background: url(/components/card_present/img/arrow.png);
+    background: url(../../components/card_present/img/arrow.png);
 }
 .card_item:nth-child(2):after {
     content: '';
     position: absolute;
-    top:10px;
+    top:15px;
     right: -113px;
     width: 93px;
     height: 65px;
-    background: url(/components/card_present/img/arrow.png);
+    background: url(../../components/card_present/img/arrow.png);
 }
 @media only screen and (max-width: 600px) and (min-width: 320px) {
     .card_container {
@@ -65,13 +112,13 @@
     .card_item:nth-child(2):before {
         left: 0px;
         top:15px;
-        background: url(/components/card_present/img/mobile_arrow.png);
+        background: url(../../components/card_present/img/mobile_arrow.png);
         height: 90px;
     }
     .card_item:nth-child(2):after {
         right: 0px;
-        top:240px;
-        background: url(/components/card_present/img/mobile_arrow_right.png);
+        top:220px;
+        background: url(../../components/card_present/img/mobile_arrow_right.png);
         height: 90px;
     }
     .card_item img {

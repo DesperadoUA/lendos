@@ -1,19 +1,20 @@
 .container_ticket {
     display: flex;
     justify-content: center;
+    margin-bottom: 12px;
 }
 .box_ticket {
     width: 376px;
-    height: 200px;
-    background: url("/components/ticket/img/ticket.png") no-repeat;
-    padding-top: 60px;
+    height: 159px;
+    background: url("../../components/ticket/img/ticket.png") no-repeat;
+    padding-top: 65px;
+    margin-bottom: 8px;
 }
 .box_ticket_title {
-    font-family: 'Rubik';
     font-style: normal;
-    font-weight: 200;
-    font-size: 15px;
-    line-height: 12px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1;
     text-align: center;
     color: var(--color_1);
     position: relative;
@@ -24,34 +25,33 @@
 .box_ticket_title span:before {
     content: '';
     position: absolute;
-    width: 7px;
-    height: 7px;
-    top:5px;
-    left:-16px;
+    width: 4px;
+    height: 4px;
+    top:7px;
+    left:-7px;
     background: var(--color_1);
     border-radius: 50%;
 }
 .box_ticket_title span:after {
     content: '';
     position: absolute;
-    width: 7px;
-    height: 7px;
-    top:5px;
-    right:-16px;
+    width: 4px;
+    height: 4px;
+    top:7px;
+    right:-7px;
     background: var(--color_1);
     border-radius: 50%;
 }
 .box_ticket_number {
-    font-family: Rubik;
     font-style: normal;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 18px;
     line-height: 21px;
     text-align: center;
     color: var(--color_1);
-    margin-top: 15px;
-    letter-spacing: 8px;
-    margin-bottom: 12px;
+    margin-top: 3px;
+    letter-spacing: 3px;
+    margin-bottom: 8px;
 }
 .box_ticket_button {
     width: 240px;
@@ -59,12 +59,11 @@
     padding-top: 10px;
     margin:0 auto;
     border-radius: 4px;
-    background: url('/components/ticket/img/ticket_bg.png') no-repeat;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
+    background: url('../../components/ticket/img/ticket_bg.png') no-repeat;
+    font-size: 18px;
     line-height: 130.35%;
+    font-weight: 700;
+    text-transform: uppercase;
     /* or 23px */
     text-align: center;
     text-decoration-line: underline;
@@ -78,8 +77,8 @@
 }
 .ticket_coin {
     position: absolute;
-    top:0px;
-    left: 14%;
+    top: 0;
+    left: 19%;
 }
 @media only screen and (max-width: 600px) and (min-width: 320px) {
     .container_ticket {
@@ -88,7 +87,7 @@
     .box_ticket {
         width: 312px;
         height: 160px;
-        background: url(/components/ticket/img/ticket_bg_mobile.png);
+        background: url(../../components/ticket/img/ticket_bg_mobile.png);
         background-size: cover;
         padding-top: 0px;
         margin-top: 25px;
