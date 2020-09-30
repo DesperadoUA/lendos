@@ -302,7 +302,6 @@ body {
     background: #025daf;
     position: relative;
     overflow: hidden;
-    padding-bottom: 174px;
 }
 .main .mask {
     position: absolute;
@@ -350,10 +349,6 @@ body {
 }
 
 @media only screen and (max-width: 600px) and (min-width: 320px) {
-    .main {
-        height: 1300px;
-    }
-
     .main .mask {
         top: -645px;
         left: -647px;
@@ -527,47 +522,30 @@ body {
     text-transform: uppercase;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: var(--color_6);
-    text-shadow:
-            -0   -4px 0   var(--color_7),
-            0   -4px 0   var(--color_7),
-            -0    4px 0   var(--color_7),
-            0    4px 0   var(--color_7),
-            -4px -0   0   var(--color_7),
-            4px -0   0   var(--color_7),
-            -4px  0   0   var(--color_7),
-            4px  0   0   var(--color_7),
-            -1px -4px 0   var(--color_7),
-            1px -4px 0   var(--color_7),
-            -1px  4px 0   var(--color_7),
-            1px  4px 0   var(--color_7),
-            -4px -1px 0   var(--color_7),
-            4px -1px 0   var(--color_7),
-            -4px  1px 0   var(--color_7),
-            4px  1px 0   var(--color_7),
-            -2px -4px 0   var(--color_7),
-            2px -4px 0   var(--color_7),
-            -2px  4px 0   var(--color_7),
-            2px  4px 0   var(--color_7),
-            -4px -2px 0   var(--color_7),
-            4px -2px 0   var(--color_7),
-            -4px  2px 0   var(--color_7),
-            4px  2px 0   var(--color_7),
-            -3px -4px 0   var(--color_7),
-            3px -4px 0   var(--color_7),
-            -3px  4px 0   var(--color_7),
-            3px  4px 0   var(--color_7),
-            -4px -3px 0   var(--color_7),
-            4px -3px 0   var(--color_7),
-            -4px  3px 0   var(--color_7),
-            4px  3px 0   var(--color_7),
-            -4px -4px 0   var(--color_7),
-            4px -4px 0   var(--color_7),
-            -4px  4px 0   var(--color_7),
-            4px  4px 0   var(--color_7),
-            -4px -4px 0   var(--color_7),
-            4px -4px 0   var(--color_7),
-            -4px  4px 0   var(--color_7),
-            4px  4px 0   var(--color_7);
+    margin-bottom: 9px;
+    position: relative;
+}
+
+.card_title:before {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    z-index: -1;
+    color: transparent;
+}
+
+.card_title:after {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    z-index: -1;
+    -webkit-text-stroke: .25em #333533;
 }
 
 .card_desc {
@@ -684,24 +662,23 @@ body {
 
 .footer {
     position: relative;
-    margin-top: -116px;
     padding-bottom: 20px;
     padding-top: 15px;
-}
-@media only screen and (max-width: 600px) and (min-width: 320px) {
-    .footer {
-        margin-top: -200px;
-    }
 }
 
 .payments_wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    padding-top: 82px;
     padding-left: 100px;
     padding-right: 100px;
     opacity: .5;
     margin-bottom: 15px;
+}
+
+.payments_item {
+    padding: 0 1.48vw;
 }
 
 @media only screen and (max-width: 1060px) and (min-width: 320px) {
@@ -709,9 +686,12 @@ body {
         flex-wrap: wrap;
         padding-left: 0;
         padding-right: 0;
+        padding-top: 42px;
     }
+
     .payments_item {
-        padding: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 }
 
@@ -1788,7 +1768,7 @@ label {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
     top: 0;
     left: 0;
-    z-index: 6;
+    z-index: 1000;
     align-items: center;
     justify-content: center;
     display: none;
