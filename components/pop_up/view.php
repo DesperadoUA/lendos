@@ -9,7 +9,7 @@
                         <p class="pop_up_ticket_title">Обычный билет</p>
                         <div class="pop_up_wrapper_button">
                             <button class="pop_up_button">
-                                <img src="/components/pop_up/img/coin.png"
+                                <img src="components/pop_up/img/coin.png"
                                      class="button_coin"
                                      loading='lazy'
                                 >
@@ -23,7 +23,7 @@
                         <p class="pop_up_ticket_title">Супербилет</p>
                         <div class="pop_up_wrapper_button">
                             <button class="pop_up_button">
-                                <img src="/components/pop_up/img/coin.png" class="button_coin">
+                                <img src="components/pop_up/img/coin.png" class="button_coin">
                                 <span>77</span></button>
                         </div>
                     </div>
@@ -33,15 +33,15 @@
                         <p class="pop_up_ticket_title">Мегабилет</p>
                         <div class="pop_up_wrapper_button">
                             <button class="pop_up_button">
-                                <img src="/components/pop_up/img/coin.png" class="button_coin">
+                                <img src="components/pop_up/img/coin.png" class="button_coin">
                                 <span>777</span></button>
                         </div>
                     </div>
                 </div>
             </div>
-            <img src="/components/pop_up/img/men.png" class="pop_up_men" loading='lazy'>
-            <img src="/components/pop_up/img/mobile_men.png" class="pop_up_men_mobile" loading='lazy'>
-            <img src="/components/pop_up/img/text.png" class="pop_up_text" loading='lazy'>
+            <img src="components/pop_up/img/men.png" class="pop_up_men" loading='lazy'>
+            <img src="components/pop_up/img/mobile_men.png" class="pop_up_men_mobile" loading='lazy'>
+            <img src="components/pop_up/img/text.png" class="pop_up_text" loading='lazy'>
         </div>
         <div class="pop_up_right">
             <form id="RegisterForm">
@@ -51,27 +51,23 @@
                     <div class="form_select_email pop_up_selector">Email</div>
                 </div>
                 <div class="pop_up_phone">
-                    <label class="label_select">Телефон</label>
-                    <input
-                            type="text"
-                            id="RegisterForm_contact"
-                            name="RegisterForm[contact]"
-                            class="form_input"
-                            placeholder="Введите ваш телефон"
-                    >
-                    <div class="error" id="register-contact-error" style="display:none;"></div>
+                    <div class="text-inputs">
+                        <label class="label_select">Телефон</label>
+                        <div class="wrapper_input">
+                            <input
+                                    id="RegisterForm_contact"
+                                    name="RegisterForm[contact]"
+                                    type="tel"
+                                    class="form_input">
+                        </div>
+                        <div class="error" id="register-contact-error" style="display: none"></div>
+                    </div>
                 </div>
-                <div class="pop_up_email hide">
-                    <label class="label_select">Email</label>
-                    <input
-                            type="text"
-                            id="RegisterForm_contact_email"
-                            name="RegisterForm[contact]"
-                            class="form_input"
-                            placeholder="Введите ваш email"
-                    >
-                    <div class="error" id="register-contact-error" style="display:none;"></div>
-                </div>
+                <input  id="RegisterForm_password" type="hidden" name="RegisterForm[password]">
+                <input  id="RegisterForm_currency_id" type="hidden" name="RegisterForm[currency_id]" value="2">
+                <input  id="RegisterForm_country_id" type="hidden" name="RegisterForm[country_id]" value="2">
+                <input  id="RegisterForm_agree" type="hidden" name="RegisterForm[agree]" value="1">
+                <p class="register_desc">Введите актуальный номер телефона,<br> чтобы получить свой подарок.</p>
                 <div class="form_wrapper_btn">
                     <button id="register" class="btn">Регистрация</button>
                 </div>

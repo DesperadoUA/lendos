@@ -1,8 +1,7 @@
 .footer_text {
     text-align: center;
-    font-family: 'Rubik light';
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 11px;
     line-height: 15px;
     color: var(--color_5);

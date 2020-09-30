@@ -1,20 +1,19 @@
 .button_wrapper {
     display: flex;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 27px;
 }
 .btn {
-    width: 300px;
+    min-width: 300px;
     background: linear-gradient(127.84deg, #FFE400 5.09%, #D10303 117.4%);
     border-radius: 6px;
-    font-family: 'Rubik light';
-    padding: 15px;
+    padding: 10px;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
-    letter-spacing: 0.02em;
+    letter-spacing: .32px;
     text-transform: uppercase;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: var(--color_5);

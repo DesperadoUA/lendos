@@ -213,24 +213,32 @@ function popUpActivate() {
   }
 
   var popUpSelectors = document.querySelectorAll('.pop_up_selector');
+  var selectPhone = document.querySelector('.form_select_phone');
+  var label = document.querySelector('.label_select');
+  var wrapperInput = document.querySelector('.wrapper_input');
+  var registerDesc = document.querySelector('.register_desc');
+
+  function renderPhoneInput() {
+    label.innerHTML = 'Телефон';
+    wrapperInput.innerHTML = "<input\n                                    id=\"RegisterForm_contact\"\n                                    name=\"RegisterForm[contact]\"\n                                    type=\"tel\" \n                                    class=\"form_input\">";
+    registerDesc.innerHTML = 'Введите актуальный номер телефона,<br> чтобы получить свой подарок.';
+    initialInput();
+  }
+
+  function renderEmailInput() {
+    label.innerHTML = 'Email';
+    wrapperInput.innerHTML = "<input\n                                    id=\"RegisterForm_contact\"\n                                    name=\"RegisterForm[contact]\"\n                                    type=\"tel\"\n                                    class=\"form_input\" placeholder=\"\u0412\u0432\u0435\u0434\u0438\u0442\u0435 email\">";
+    registerDesc.innerHTML = 'Введите актуальный email,<br> чтобы получить свой подарок.';
+  }
 
   if (popUpSelectors.length !== 0) {
-    var phone = document.querySelector('.pop_up_phone');
-    var email = document.querySelector('.pop_up_email');
     popUpSelectors.forEach(function (item) {
       item.addEventListener('click', function () {
         popUpSelectors.forEach(function (selector) {
           selector.classList.remove('active');
         });
         item.classList.add('active');
-
-        if (phone.classList.contains('hide')) {
-          phone.classList.remove('hide');
-          email.classList.add('hide');
-        } else {
-          phone.classList.add('hide');
-          email.classList.remove('hide');
-        }
+        selectPhone.classList.contains('active') ? renderPhoneInput() : renderEmailInput();
       });
     });
   }

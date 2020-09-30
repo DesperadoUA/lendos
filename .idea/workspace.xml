@@ -2,7 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="235d11ba-14bf-451a-979f-e9ec51f1987a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/pop_up/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pop_up/img/flags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pop_up/img/flags@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pop_up/intlTelephone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pop_up/phone_field.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pop_up/phone_input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pop_up/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ticket/coin_animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ticket/img/place.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack_dist/076be244c75e808adb88f35ee1f2a463.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack_dist/0ef291413d7544069b7b5da33fbcb8a7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack_dist/31533032320566d05e942d810e53f4f6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack_dist/320f7ae9f201e83580bba6c470e78705.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack_dist/3899540510508a7633637c7c36668594.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack_dist/40ff25a9527780769a0bda1a8f2ccdd1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack_dist/416250f60d785a2e02f17e054d2e4e44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack_dist/48b69fcc53b88b6a20dbddaec35acebd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack_dist/6e1504a8dca7c6c01953a843e03c7d67.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack_dist/722964277ccf0f5227a5cd105d2c69ff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack_dist/72d8d3fddd1524510928d811f9eaa485.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack_dist/81717cadda7d10526df7a4215b550881.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack_dist/966362f4e170a1a8528851704f48e04f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack_dist/ac7c83b02c3d55ded3939564a277a482.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack_dist/c23374bfb355892cf28cee2fc4f57511.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack_dist/d08330c1518dc4ab1bd86ffb649853b9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack_dist/d525a2f498e3a0f76a4c72316ef14936.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack_dist/e1030ed54bb5f4482c22345f291dccc0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/banner/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/banner/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/banner/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/banner/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/button/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/button/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/card_present/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/card_present/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/card_present/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/card_present/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fonts/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fonts/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fonts/Rubik-Italic-VariableFont_wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fonts/Rubik-VariableFont_wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fonts/Rubik.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fonts/static/Rubik-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fonts/static/Rubik-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fonts/static/Rubik-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fonts/static/Rubik-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fonts/static/Rubik-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fonts/static/Rubik-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fonts/static/Rubik-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fonts/static/Rubik-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fonts/static/Rubik-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fonts/static/Rubik-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fonts/static/Rubik-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fonts/static/Rubik-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fonts/static/Rubik-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fonts/static/Rubik-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer_text/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer_text/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/payments/img/Curaçao_Shields.png" beforeDir="false" afterPath="$PROJECT_DIR$/components/payments/img/begamble.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/payments/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/payments/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/payments/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/payments/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/pop_up/register_form.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/pop_up/register_form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/pop_up/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pop_up/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/pop_up/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/pop_up/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/pop_up/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/pop_up/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ticket/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/ticket/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ticket/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/ticket/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack_dist/bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/webpack_dist/bundle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack_dist/bundle.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/webpack_dist/bundle.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack_dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack_dist/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack_dist/bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/webpack_dist/bundle.js.map" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,81 +87,87 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/pop_up/view.php">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/pop_up/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-              <folding>
-                <element signature="e#390#452#0" />
-                <element signature="e#513#578#0" />
-                <element signature="e#646#694#0" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
+        <entry file="file://$PROJECT_DIR$/components/banner/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="431">
+              <caret line="218" column="25" selection-start-line="218" selection-start-column="25" selection-end-line="218" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/common/style.css">
+        <entry file="file://$PROJECT_DIR$/components/variable/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="119">
+              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/footer/view.php">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="74" selection-start-line="2" selection-start-column="74" selection-end-line="2" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/payments/view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="53" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/pop_up/register_form.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1207">
-              <caret line="71" column="48" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
-              <folding>
-                <element signature="e#1846#1874#0" />
-              </folding>
-            </state>
+            <state relative-caret-position="-3455" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/pop_up/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3264">
-              <caret line="192" column="26" selection-start-line="192" selection-start-column="26" selection-end-line="192" selection-end-column="26" />
+            <state relative-caret-position="-119">
+              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/ticket/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/ticket/coin_animate.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/card_present/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="126" column="67" lean-forward="true" selection-start-line="126" selection-end-line="126" selection-end-column="67" />
+              <folding>
+                <element signature="e#336#2256#0" />
+                <element signature="e#2269#2389#0" />
+                <element signature="e#2421#2597#0" />
+                <element signature="e#2628#2806#0" />
+                <element signature="e#2807#3523#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/payments/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -127,6 +207,7 @@
       <find>main .mask</find>
       <find>banner_title</find>
       <find>pop_up_but</find>
+      <find>ticket_co</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,7 +218,6 @@
       <list>
         <option value="$PROJECT_DIR$/components/logo/view.php" />
         <option value="$PROJECT_DIR$/components/header/view.php" />
-        <option value="$PROJECT_DIR$/components/variable/style.css" />
         <option value="$PROJECT_DIR$/components/ticket/view.php" />
         <option value="$PROJECT_DIR$/components/main/view.php" />
         <option value="$PROJECT_DIR$/components/button/style.css" />
@@ -148,15 +228,9 @@
         <option value="$PROJECT_DIR$/components/button/view.php" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/components/header/style.css" />
-        <option value="$PROJECT_DIR$/components/payments/style.css" />
         <option value="$PROJECT_DIR$/components/footer/style.css" />
-        <option value="$PROJECT_DIR$/components/card_present/style.css" />
-        <option value="$PROJECT_DIR$/components/ticket/style.css" />
         <option value="$PROJECT_DIR$/components/main/style.css" />
         <option value="$PROJECT_DIR$/components/banner/view.php" />
-        <option value="$PROJECT_DIR$/components/banner/style.css" />
-        <option value="$PROJECT_DIR$/components/pop_up/register_form.css" />
-        <option value="$PROJECT_DIR$/components/pop_up/style.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/components/card_present/view.php" />
         <option value="$PROJECT_DIR$/components/payments/view.php" />
@@ -165,6 +239,14 @@
         <option value="$PROJECT_DIR$/components/pop_up/script.js" />
         <option value="$PROJECT_DIR$/static.html" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/components/pop_up/register_form.css" />
+        <option value="$PROJECT_DIR$/components/variable/style.css" />
+        <option value="$PROJECT_DIR$/components/pop_up/style.css" />
+        <option value="$PROJECT_DIR$/components/ticket/style.css" />
+        <option value="$PROJECT_DIR$/components/ticket/coin_animate.css" />
+        <option value="$PROJECT_DIR$/components/card_present/style.css" />
+        <option value="$PROJECT_DIR$/components/payments/style.css" />
+        <option value="$PROJECT_DIR$/components/banner/style.css" />
       </list>
     </option>
   </component>
@@ -186,6 +268,17 @@
             <path>
               <item name="lendos" type="b2602c69:ProjectViewProjectNode" />
               <item name="lendos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lendos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lendos" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lendos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lendos" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="banner" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,16 +343,15 @@
       <workItem from="1601276433959" duration="10065000" />
       <workItem from="1601286695098" duration="2254000" />
       <workItem from="1601292188793" duration="2975000" />
-      <workItem from="1601473569045" duration="27000" />
+      <workItem from="1601473569045" duration="2876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47517000" />
+    <option name="totallyTimeSpent" value="50366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19906166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -340,13 +432,6 @@
     <entry file="file://$PROJECT_DIR$/components/main/img/bgVibes.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/variable/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -374,13 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/card_present/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/banner/view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
@@ -398,39 +476,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/banner/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding>
-            <element signature="e#8#217#0" />
-            <element signature="e#690#1042#0" />
-            <element signature="e#1063#1109#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/pop_up/img/ticket_show.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/payments/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/footer/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/ticket/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="66" selection-start-line="83" selection-end-line="83" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -493,8 +545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/common/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state relative-caret-position="272">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -512,23 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/pop_up/register_form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="48" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
-          <folding>
-            <element signature="e#1846#1874#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/pop_up/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3264">
-          <caret line="192" column="26" selection-start-line="192" selection-start-column="26" selection-end-line="192" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -536,10 +571,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/pop_up/register_form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="255">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/variable/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3455" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/pop_up/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/ticket/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/ticket/coin_animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/card_present/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="126" column="67" lean-forward="true" selection-start-line="126" selection-end-line="126" selection-end-column="67" />
+          <folding>
+            <element signature="e#336#2256#0" />
+            <element signature="e#2269#2389#0" />
+            <element signature="e#2421#2597#0" />
+            <element signature="e#2628#2806#0" />
+            <element signature="e#2807#3523#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/payments/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/banner/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="218" column="25" selection-start-line="218" selection-start-column="25" selection-end-line="218" selection-end-column="25" />
         </state>
       </provider>
     </entry>

@@ -11,6 +11,8 @@ import '../components/payments/style.css'
 import '../components/footer_text/style.css'
 import '../components/pop_up/style.css'
 import popUp from '../components/pop_up/script'
+
 popUp()
+
 
 

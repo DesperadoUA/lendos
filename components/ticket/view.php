@@ -3,6 +3,8 @@
         <div class="box_ticket_title"><span>Билет №</span></div>
         <div class="box_ticket_number">406061</div>
         <div class="box_ticket_button">
-            <img src="/components/ticket/img/coin.png" class="ticket_coin"><span>стереть</span></div>
+            <img src="components/ticket/img/coin.png" class="ticket_coin">
+            <div class="coin_animate"></div>
+            <span>стереть</span></div>
     </div>
 </div>
